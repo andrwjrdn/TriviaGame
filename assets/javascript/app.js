@@ -101,6 +101,8 @@ function loseSeconds() {
 	counter --;
 
 // COUNTER STOPS WHEN IT REACHES 0 SECONDS
+// IDK WHY IT WON'T STOP WHEN THE TIMER REACHES 0
+// FUNCTIONS BELOW ARE NOT RUNNING IT SEEMS???
 	if (counter === 0) {
         clearInterval();
         stop();
