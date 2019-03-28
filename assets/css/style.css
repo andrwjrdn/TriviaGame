@@ -1,6 +1,7 @@
-* {
-    background-image: url("http://papers.co/wallpaper/papers.co-hh15-kobe-bryant-nba-sports-basketball-dark-29-wallpaper.jpg");
+body {
+    background-image: url("../images/KOBEBACK.jpg");
     font-family: Orbitron;
+    text-align: center;
     
 }
 

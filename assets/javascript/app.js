@@ -63,7 +63,7 @@ $(document).ready(function () {
 var correct = 0;
 var incorrect = 0;
 var noAnswer = 0;
-var counter = 60;
+var counter = 10;
 var counterSpeed;
 var myGuess="";
 var countDown = false;
@@ -90,7 +90,7 @@ $("#start").on("click", function () {
 // COUNTER STARTS, INTERVAL SET TO SECONDS.
 function counterGo(){
 	if (!countDown) {
-	counterSpeed = setInterval(loseSeconds, 10); 
+	counterSpeed = setInterval(loseSeconds, 1000); 
 	countDown = true;
 	}
 }
@@ -102,9 +102,9 @@ function loseSeconds() {
 
 // COUNTER STOPS WHEN IT REACHES 0 SECONDS
 	if (counter === 0) {
+        clearInterval();
+        stop();
         noAnswer++;
-        stop(counter);
-        clearInterval(counter);
 		$("#Answer").html("<p>AIRBALL! " + select.guesses[select.answer] + "</p>");
 		gameScore();
 	}	
@@ -201,3 +201,5 @@ $("#restart").on("click", function() {
 })
 
 })
+
+
