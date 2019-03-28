@@ -63,7 +63,7 @@ $(document).ready(function () {
 var correct = 0;
 var incorrect = 0;
 var noAnswer = 0;
-var counter = 10;
+var counter = 60;
 var counterSpeed;
 var myGuess="";
 var countDown = false;
