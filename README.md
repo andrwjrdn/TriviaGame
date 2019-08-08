@@ -1,7 +1,7 @@
 # TriviaGame
 
 ## NBA Trivia
-NBA Trivia game -- See how many questions you can answer correctly in this trivia game! Your score will be counted for every question you get correct. 
+NBA Trivia game -- See how many questions you can answer correctly in 60 seconds! Your score will be counted for every question you get correct which you will see upon completing the quiz. 
 ## Getting Started 
 Play here: https://andrwjrdn.github.io/TriviaGame/
 
