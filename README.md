@@ -1,7 +1,7 @@
 # TriviaGame
 
 ## NBA Trivia
-NBA Trivia game
+NBA Trivia game -- See how many questions you can answer correctly in this trivia game! Your score will be counted for every question you get correct. 
 ## Getting Started 
 Play here: https://andrwjrdn.github.io/TriviaGame/
 
